@@ -1,0 +1,112 @@
+/* Custom CSS created by me Germel Tabalus */
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+.navbar .nav-link {
+    color: #000;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+} 
+
+.homeIMG {
+    max-width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+.profile {
+    top: -15vh;
+    position: relative;
+}
+
+.present h2, .webTitle{
+    font-family: balsamiq;
+}
+
+@font-face {
+    font-family: balsamiq;
+    src: url("fonts/BalsamiqSans-Bold.ttf");
+}
+
+.aboutIMG {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-about {
+    width: 16rem;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.card-about .card-body {
+    padding: 0.3rem !important;
+}
+
+.webTitle {
+    font-size: 1.4rem;
+    letter-spacing: 0.3rem;
+}
+
+.imgCaption {
+    font-family: Roboto;
+    font-size: 1.2rem;
+}
+
+.sipalayIMG1 {
+    width: 18rem;
+    justify-content: center;
+    background-color: lightblue;  
+}
+
+.sipalayIMG2 {
+    width: 34rem;
+    justify-content: center;
+    background-color: lightblue;  
+}
+
+video {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+.dito {
+    font-family: balsamiq;
+}
