@@ -1,0 +1,98 @@
+/* Custom CSS created by me Germel Tabalus */
+
+body {
+    overflow-x: hidden;
+}
+
+.webTitle {
+    font-family: bowlby;
+    font-size: 1.2rem;
+    letter-spacing: 0.7rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+@font-face {    
+    font-family: bowlby;
+    src: url("fonts/BowlbyOneSC-Regular.ttf");
+}
+
+.landIMG {
+    max-width: 100%;
+    height: auto;
+}
+
+#landing {
+    width: 100%;
+    height: 100%;
+}
+
+.card-customSize1 {
+    width: 28rem;
+}
+
+.card-customSize2 {
+    width: 15rem;
+}
+
+.card-customSize3 {
+    width: 20rem;
+    justify-content: center;
+}
+
+.card-customSize3 .card-body, .card-customSize4 .card-body {
+    padding: 0.25rem !important;
+}
+
+.toBig:hover {
+    transform:scale(1.1);
+    transition:0.4s;
+}
+
+.header-card {
+    font-size: 1.3rem;
+}
+
+#catsQuote {
+    background-image:linear-gradient(to right, gray, #555555, #333333);
+}
+
+.firstGroupCats {
+    border: 1px solid black;
+}
+
+.kittens{
+    font-size: 1.8rem;
+    font-family: bowlby;
+    text-align: center;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.8rem;
+}
+
+.empty {
+    height: 6rem;
+}
+
+.titleDesc {
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+
+.card-customSize4 {
+    width: 30rem;
+    justify-content: center;
+}
+
+.bandTitle {
+    font-size: 1.8rem;
+    font-family: bowlby;
+    text-align: center;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5rem;
+}
