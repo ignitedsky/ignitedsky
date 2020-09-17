@@ -1,0 +1,216 @@
+/* customized css */
+/* gray #5b5b5b */  
+
+.webLogo {
+    width: 10%;
+    height: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #5b5b5b;
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.navbar.active {
+    background: #000;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #fff;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #fff;
+} 
+
+.webTitle, .gtBigText, .footerGT {
+    font-family: fredoka;
+}
+
+@font-face {
+    font-family: fredoka;
+    src: url("fonts/FredokaOne-Regular.ttf");
+}
+
+#home {
+    background-image: url("../images/homeBG.jpg");
+    height: 100%;
+}
+
+.whiteLetter {
+    color: #ffffff;
+}
+
+.blackLetter {
+    color: #000000;
+}
+
+.gtBigText {
+    margin-top: 25%;
+    font-size: 26vw;
+    letter-spacing: -1.4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.homeHeader {
+    height: 20%;
+}
+
+.intro {
+    font-size: 2.3rem;
+}
+
+.introRow1, .introRow2, .introRow3{
+    background-color: #5b5b5b;
+}
+
+.introRow2{
+    margin-left: 2rem;
+}
+
+.introRow3{
+    margin-left: 4rem;
+}
+
+.intro2 {
+    padding: 1rem;
+    margin-top: 3rem;
+    background-color: rgba(91,91,91, 0.7);
+    font-size: 1.3rem;
+    color: #000000;
+}
+
+#about {
+    height: 100%;
+}
+
+#gallery {
+    background-image: url("../images/galleryBG.jpg");
+    height: 100%;
+}
+
+.galleryRow1 {
+    width: 100%;
+    height: 4rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 10rem;
+    color: black;
+    font-weight: 800;
+    background-color: white;
+    margin-bottom: 3rem;
+}
+
+.galleryRow2 {
+    width: 100%;
+    height: 15rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 5rem;
+    color: black;
+    font-weight: 800;
+    background-color: rgba(255,255,255, 0.65);
+    margin-bottom: 3rem;
+}
+
+.galleryRow2 a {
+    margin-top: 1rem;
+    color: #fff;
+}
+ 
+.galleryRightTitles {
+    margin-top: 7rem;
+}
+
+.galleryImages {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.galleryRightTitles span {
+    background-color: white;
+    font-size: 2rem;
+    color: black;
+    padding: 0.6rem;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.img-gallery {
+    width: 13rem;
+    border: 0.5rem;
+}
+
+.card-body {
+    padding: 0.3rem !important;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+#blog {
+    background-image: url("../images/blogBG.jpeg");
+    height: 100%;
+}
+
+.blogRightTitles {
+    margin-top: 7rem;
+}
+
+.blogRightTitles span {
+    background-color: white;
+    font-size: 1.5rem;
+    color: black;
+    padding: 0.6rem;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+#rightSpec {
+    font-size: 1.25rem;
+}
+
+.blogRow2 {
+    width: 100%;
+    height: 25rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 5rem;
+    color: black;
+    font-weight: 800;
+    background-color: rgba(255,255,255, 0.65);
+    margin-bottom: 3rem;
+}
+
+footer {
+    background-color: black;
+}
